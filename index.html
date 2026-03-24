@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Violet Stay - Apartments in Skopje</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="#" class="logo">
+            <span class="logo-icon">&#9670;</span> Violet Stay
+        </a>
+        <div class="nav-links" id="navLinks">
+            <a href="#home" data-en="Home" data-mk="Дома" data-tr="Ana Sayfa">Home</a>
+            <a href="#about" data-en="About" data-mk="За нас" data-tr="Hakkımızda">About</a>
+            <a href="#rooms" data-en="Rooms" data-mk="Соби" data-tr="Odalar">Rooms</a>
+            <a href="#amenities" data-en="Amenities" data-mk="Погодности" data-tr="Olanaklar">Amenities</a>
+            <a href="#contact" data-en="Contact" data-mk="Контакт" data-tr="İletişim">Contact</a>
+        </div>
+        <div class="nav-right">
+            <div class="lang-switcher">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="mk">MK</button>
+                <button class="lang-btn" data-lang="tr">TR</button>
+            </div>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-slider">
+        <div class="hero-slide active" style="background-image: url('images/soba16.jpg')"></div>
+        <div class="hero-slide" style="background-image: url('images/soba16_1.jpg')"></div>
+        <div class="hero-slide" style="background-image: url('images/832199711.jpg')"></div>
+        <div class="hero-slide" style="background-image: url('images/822420117.jpg')"></div>
+        <div class="hero-slide" style="background-image: url('images/815843233.jpg')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <p class="hero-subtitle"
+           data-en="Welcome to"
+           data-mk="Добредојдовте во"
+           data-tr="Hoş geldiniz">Welcome to</p>
+        <h1 class="hero-title">Violet Stay</h1>
+        <p class="hero-tagline"
+           data-en="Your cozy home in the heart of Skopje"
+           data-mk="Вашиот удобен дом во срцето на Скопје"
+           data-tr="Üsküp'ün kalbinde rahat eviniz">Your cozy home in the heart of Skopje</p>
+        <div class="hero-badge">
+            <i class="fas fa-map-marker-alt"></i>
+            <span data-en="Just 10 minutes from the city center"
+                  data-mk="Само 10 минути од центарот на градот"
+                  data-tr="Şehir merkezine sadece 10 dakika">Just 10 minutes from the city center</span>
+        </div>
+        <a href="#contact" class="btn btn-primary"
+           data-en="Book Now"
+           data-mk="Резервирај"
+           data-tr="Şimdi Rezerve Et">Book Now</a>
+    </div>
+    <div class="scroll-indicator">
+        <i class="fas fa-chevron-down"></i>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="section about" id="about">
+    <div class="container">
+        <div class="section-header">
+            <p class="section-subtitle"
+               data-en="Discover"
+               data-mk="Откријте"
+               data-tr="Keşfedin">Discover</p>
+            <h2 class="section-title"
+                data-en="A Place You'll Love"
+                data-mk="Место кое ќе го засакате"
+                data-tr="Seveceğiniz Bir Yer">A Place You'll Love</h2>
+        </div>
+        <div class="about-grid">
+            <div class="about-text">
+                <p data-en="Welcome to Violet Stay — a beautifully designed and exceptionally comfortable accommodation in Skopje. Our modern apartments offer the perfect blend of elegance and warmth, creating a home-away-from-home experience that will make your stay truly memorable."
+                   data-mk="Добредојдовте во Violet Stay — прекрасно дизајниран и исклучително удобен сместувачки објект во Скопје. Нашите модерни апартмани нудат совршен спој на елеганција и топлина, создавајќи чувство на дом далеку од дома, кое ќе го направи вашиот престој навистина незаборавен."
+                   data-tr="Violet Stay'e hoş geldiniz — Üsküp'te güzelce tasarlanmış ve son derece konforlu bir konaklama yeri. Modern dairelerimiz, zarafet ve sıcaklığın mükemmel bir karışımını sunarak, konaklamanızı gerçekten unutulmaz kılacak bir ev-uzaktan-ev deneyimi yaratır.">
+                    Welcome to Violet Stay — a beautifully designed and exceptionally comfortable accommodation in Skopje. Our modern apartments offer the perfect blend of elegance and warmth, creating a home-away-from-home experience that will make your stay truly memorable.
+                </p>
+                <p data-en="Each apartment spans a spacious 30 m², thoughtfully equipped with everything you need for a relaxing stay. Enjoy the comfort of a plush double bed, unwind with your favorite shows on a flat-screen TV, stay connected with high-speed WiFi, and freshen up in your own private bathroom. Whether you're visiting for business or leisure, Violet Stay is your ideal retreat in Skopje."
+                   data-mk="Секој апартман зафаќа простран простор од 30 m², внимателно опремен со сè што ви е потребно за релаксирачки престој. Уживајте во удобноста на луксузен брачен кревет, опуштете се со вашите омилени серии на рамен ТВ екран, останете поврзани со брз WiFi и освежете се во вашата приватна бања. Без разлика дали патувате деловно или за одмор, Violet Stay е вашето идеално засолниште во Скопје."
+                   data-tr="Her daire, rahat bir konaklama için ihtiyacınız olan her şeyle özenle donatılmış 30 m²'lik geniş bir alana sahiptir. Rahat bir çift kişilik yatağın konforunu yaşayın, düz ekran TV'de favori programlarınızı izleyin, yüksek hızlı WiFi ile bağlantıda kalın ve kendi özel banyonuzda tazelenin. İster iş ister tatil için ziyaret edin, Violet Stay Üsküp'teki ideal sığınağınızdır.">
+                    Each apartment spans a spacious 30 m², thoughtfully equipped with everything you need for a relaxing stay. Enjoy the comfort of a plush double bed, unwind with your favorite shows on a flat-screen TV, stay connected with high-speed WiFi, and freshen up in your own private bathroom. Whether you're visiting for business or leisure, Violet Stay is your ideal retreat in Skopje.
+                </p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-ruler-combined"></i></div>
+                    <h3>30 m²</h3>
+                    <p data-en="Spacious Apartments" data-mk="Простrani апартмани" data-tr="Geniş Daireler">Spacious Apartments</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-clock"></i></div>
+                    <h3>10 min</h3>
+                    <p data-en="From City Center" data-mk="Од центарот" data-tr="Şehir Merkezinden">From City Center</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-star"></i></div>
+                    <h3>5.0</h3>
+                    <p data-en="Guest Rating" data-mk="Оцена на гости" data-tr="Misafir Puanı">Guest Rating</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-heart"></i></div>
+                    <h3>100%</h3>
+                    <p data-en="Satisfaction" data-mk="Задоволство" data-tr="Memnuniyet">Satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Rooms Gallery Section -->
+<section class="section rooms" id="rooms">
+    <div class="container">
+        <div class="section-header">
+            <p class="section-subtitle"
+               data-en="Our Rooms"
+               data-mk="Наши соби"
+               data-tr="Odalarımız">Our Rooms</p>
+            <h2 class="section-title"
+                data-en="Comfort & Elegance"
+                data-mk="Удобност и елеганција"
+                data-tr="Konfor ve Zarafet">Comfort & Elegance</h2>
+        </div>
+        <div class="gallery-carousel">
+            <div class="gallery-track" id="galleryTrack">
+                <div class="gallery-slide">
+                    <img src="images/soba16.jpg" alt="Violet Stay Apartment">
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/soba16_1.jpg" alt="Violet Stay Apartment">
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/soba16_2.jpg" alt="Violet Stay Apartment">
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/soba16_3.jpg" alt="Violet Stay Apartment">
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/soba16_4jpg.jpg" alt="Violet Stay Apartment">
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/soba16_5.jpg" alt="Violet Stay Apartment">
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/815843233.jpg" alt="Violet Stay Apartment">
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/815898443.jpg" alt="Violet Stay Apartment">
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/815898741.jpg" alt="Violet Stay Apartment">
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/821401600.jpg" alt="Violet Stay Apartment">
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/822420117.jpg" alt="Violet Stay Apartment">
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/822420138.jpg" alt="Violet Stay Apartment">
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/822420167.jpg" alt="Violet Stay Apartment">
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/822420182.jpg" alt="Violet Stay Apartment">
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/832199711.jpg" alt="Violet Stay Apartment">
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/832199712.jpg" alt="Violet Stay Apartment">
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/832199722.jpg" alt="Violet Stay Apartment">
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/832199723.jpg" alt="Violet Stay Apartment">
+                </div>
+            </div>
+            <button class="gallery-btn gallery-prev" id="galleryPrev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="gallery-btn gallery-next" id="galleryNext">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="gallery-dots" id="galleryDots"></div>
+        </div>
+    </div>
+</section>
+
+<!-- Amenities Section -->
+<section class="section amenities" id="amenities">
+    <div class="container">
+        <div class="section-header">
+            <p class="section-subtitle"
+               data-en="What We Offer"
+               data-mk="Што нудиме"
+               data-tr="Neler Sunuyoruz">What We Offer</p>
+            <h2 class="section-title"
+                data-en="Everything You Need"
+                data-mk="Сè што ви треба"
+                data-tr="İhtiyacınız Olan Her Şey">Everything You Need</h2>
+        </div>
+        <div class="amenities-grid">
+            <div class="amenity-card">
+                <div class="amenity-icon"><i class="fas fa-bed"></i></div>
+                <h3 data-en="Double Bed" data-mk="Брачен кревет" data-tr="Çift Kişilik Yatak">Double Bed</h3>
+                <p data-en="Premium quality double bed for a restful night's sleep"
+                   data-mk="Квалитетен брачен кревет за мирен ноќен одмор"
+                   data-tr="Huzurlu bir gece uykusu için kaliteli çift kişilik yatak">Premium quality double bed for a restful night's sleep</p>
+            </div>
+            <div class="amenity-card">
+                <div class="amenity-icon"><i class="fas fa-bath"></i></div>
+                <h3 data-en="Private Bathroom" data-mk="Приватна бања" data-tr="Özel Banyo">Private Bathroom</h3>
+                <p data-en="Each apartment has its own fully equipped bathroom"
+                   data-mk="Секој апартман има своја целосно опремена бања"
+                   data-tr="Her dairenin kendi tam donanımlı banyosu vardır">Each apartment has its own fully equipped bathroom</p>
+            </div>
+            <div class="amenity-card">
+                <div class="amenity-icon"><i class="fas fa-wifi"></i></div>
+                <h3 data-en="Free WiFi" data-mk="Бесплатен WiFi" data-tr="Ücretsiz WiFi">Free WiFi</h3>
+                <p data-en="High-speed internet access throughout your stay"
+                   data-mk="Брз интернет пристап за време на вашиот престој"
+                   data-tr="Konaklamanız boyunca yüksek hızlı internet erişimi">High-speed internet access throughout your stay</p>
+            </div>
+            <div class="amenity-card">
+                <div class="amenity-icon"><i class="fas fa-tv"></i></div>
+                <h3 data-en="Flat Screen TV" data-mk="Рамен ТВ екран" data-tr="Düz Ekran TV">Flat Screen TV</h3>
+                <p data-en="Enjoy entertainment on a modern flat-screen television"
+                   data-mk="Уживајте во забава на модерен рамен ТВ екран"
+                   data-tr="Modern düz ekran televizyonda eğlencenin keyfini çıkarın">Enjoy entertainment on a modern flat-screen television</p>
+            </div>
+            <div class="amenity-card">
+                <div class="amenity-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <h3 data-en="Great Location" data-mk="Одлична локација" data-tr="Harika Konum">Great Location</h3>
+                <p data-en="Only 10 minutes from the city center of Skopje"
+                   data-mk="Само 10 минути од центарот на Скопје"
+                   data-tr="Üsküp şehir merkezine sadece 10 dakika">Only 10 minutes from the city center of Skopje</p>
+            </div>
+            <div class="amenity-card">
+                <div class="amenity-icon"><i class="fas fa-expand-arrows-alt"></i></div>
+                <h3 data-en="30 m² Space" data-mk="30 m² простор" data-tr="30 m² Alan">30 m² Space</h3>
+                <p data-en="Spacious apartments with room to relax and unwind"
+                   data-mk="Простран апартман со доволно место за релаксација"
+                   data-tr="Rahatlamak için geniş daireler">Spacious apartments with room to relax and unwind</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="section contact" id="contact">
+    <div class="container">
+        <div class="section-header">
+            <p class="section-subtitle"
+               data-en="Get in Touch"
+               data-mk="Контактирајте нè"
+               data-tr="İletişime Geçin">Get in Touch</p>
+            <h2 class="section-title"
+                data-en="Book Your Stay"
+                data-mk="Резервирајте го вашиот престој"
+                data-tr="Konaklamanızı Rezerve Edin">Book Your Stay</h2>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-card">
+                <div class="contact-icon phone-icon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <h3 data-en="Call Us" data-mk="Јавете се" data-tr="Bizi Arayın">Call Us</h3>
+                <a href="tel:+38970400884" class="contact-link">+389 70 400 884</a>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon viber-icon">
+                    <i class="fab fa-viber"></i>
+                </div>
+                <h3 data-en="Viber" data-mk="Вибер" data-tr="Viber">Viber</h3>
+                <a href="viber://chat?number=%2B38970400884" class="contact-link"
+                   data-en="Message on Viber"
+                   data-mk="Порака на Вибер"
+                   data-tr="Viber'dan Mesaj">Message on Viber</a>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon whatsapp-icon">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <h3 data-en="WhatsApp" data-mk="WhatsApp" data-tr="WhatsApp">WhatsApp</h3>
+                <a href="https://wa.me/38970400884" target="_blank" class="contact-link"
+                   data-en="Message on WhatsApp"
+                   data-mk="Порака на WhatsApp"
+                   data-tr="WhatsApp'tan Mesaj">Message on WhatsApp</a>
+            </div>
+        </div>
+        <div class="contact-location">
+            <i class="fas fa-map-marker-alt"></i>
+            <span data-en="Skopje, North Macedonia — 10 minutes from the city center"
+                  data-mk="Скопје, Северна Македонија — 10 минути од центарот на градот"
+                  data-tr="Üsküp, Kuzey Makedonya — Şehir merkezine 10 dakika">Skopje, North Macedonia — 10 minutes from the city center</span>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-icon">&#9670;</span> Violet Stay
+            </div>
+            <p data-en="Your perfect stay in Skopje"
+               data-mk="Вашиот совршен престој во Скопје"
+               data-tr="Üsküp'teki mükemmel konaklamanız">Your perfect stay in Skopje</p>
+            <div class="footer-social">
+                <a href="tel:+38970400884"><i class="fas fa-phone-alt"></i></a>
+                <a href="viber://chat?number=%2B38970400884"><i class="fab fa-viber"></i></a>
+                <a href="https://wa.me/38970400884" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Violet Stay. <span data-en="All rights reserved." data-mk="Сите права задржани." data-tr="Tüm hakları saklıdır.">All rights reserved.</span></p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
